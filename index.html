@@ -22,8 +22,8 @@
             <div class="gambar">
                 <img src="Gambar:/jesen.JPG" height="200" width="200"/>
             </div>
-            <h2 class="text-h11">Keenan Arelian Purnama</h2>
-            <p>Front End Designer</p>
+            <h2 class="text-h11" id="new1">Keenan Arelian Purnama</h2>
+            <p id="new2">Front End Designer</p>
             <button type="submit" id="button1" class="btn btn-primary">Kontak</button>
             <button type="submit" id="button2" class="btn btn-light">Resume</button>
         </div>
@@ -33,60 +33,60 @@
             <h3>Lokasi</h3>
             <h3>Pengalaman</h3>
             <h3>Email</h3>
-            <p>Part Time</p>
-            <p>17</p>
-            <p>Tangerang</p>
-            <p>Belum Ada</p>
-            <p>keenanarelian@gmail.com</p>
+            <p id="new3">Part Time</p>
+            <p id="new4">17</p>
+            <p id="new5">Tangerang</p>
+            <p id="new6">Belum Ada</p>
+            <p id="new7">keenanarelian@gmail.com</p>
         </div>
     </section>
     <div class="form-all" id="formall">
     <div class="form">
         <label for="nama">Nama</label>
         <br />
-        <input name="nama" placeholder="Masukkan Nama Anda" type="text"/>
+        <input name="nama" id="name-input" placeholder="Masukkan Nama Anda" type="text"/>
         </div>
         <br />
 
     <div class="form">       
          <label for="role">Role</label>
          <br />
-        <input name="role" type="text"/>
+        <input name="role" id="role-input" type="text"/>
         </div>
        
         <br />
     <div class="form">
         <label for="availability">Avaliability</label>
         <br />
-        <input name="availabilty" type="text">
+        <input name="availabilty" id="ava-input" type="text">
     </div>
         <br />
     <div class="form">
         <label for="usia">Usia</label>
         <br />
-        <input name="usia" type="number" min="0">
+        <input name="usia" id="age-input" type="number" min="0">
     </div>
         <br />
     <div class="form">
         <label for="lokasi">Lokasi</label>
         <br />
-        <input name="lokasi" type="text">
+        <input name="lokasi" id="input-location" type="text">
     </div>
         <br />
     <div class="form">
         <label for="year experience">Years Experience</label>
         <br />
-        <input name="year experience" type="text">
+        <input name="year experience" id="year-exp" type="text">
     </div>
         <br />
     <div class="form">
         <label for="email">Email</label>
         <br />
-        <input name="email" type="text">
+        <input name="email" id="mail-input" type="text">
     </div>
     </div>
         <br />
-        <button type="button" id="button3" class="btn btn-success">Submit</button>  
+        <button type="button" onclick="newsubdata()" id="button3" class="btn btn-success">Submit</button>  
     
     <script src="index.js"></script>
 </body>
